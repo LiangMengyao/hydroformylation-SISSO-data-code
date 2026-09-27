@@ -1,0 +1,2 @@
+﻿analysis,ligand_class,target,scale,n,R2,RMSE,MAE,MaxAE,negative_prediction_count
+nested,bi,raw,L_B,24,0.047570640778232365,7.272157521150621,5.825776367273755,15.460409410240917,4

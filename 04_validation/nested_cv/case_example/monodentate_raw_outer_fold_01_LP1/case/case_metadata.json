@@ -1,0 +1,28 @@
+{
+  "task_id": 1,
+  "pipeline": "M",
+  "ligand_class": "mono",
+  "target": "raw",
+  "outer_fold": 1,
+  "heldout_ligand": "LP1",
+  "n_train": 23,
+  "fixed_seed": 20260902,
+  "fixed_model": {
+    "Phi": 2,
+    "D": 4
+  },
+  "nested_grid": {
+    "Phi": [
+      1,
+      2
+    ],
+    "D": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "operators": "()(+)(-)(/)(^-1)(^2)(sqrt)(|-|)",
+  "safe_denominator": false
+}

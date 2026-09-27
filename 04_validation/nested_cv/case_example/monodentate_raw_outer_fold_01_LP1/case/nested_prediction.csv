@@ -1,0 +1,2 @@
+﻿task_id,pipeline,ligand_class,target,outer_fold,heldout_ligand,screened_feature_count,selected_Phi,selected_D,selected_inner_RMSE,y_pred_model,y_pred_LB,negative_raw_prediction
+1,M,mono,raw,1,LP1,28,1,1,0.28498950519518246,1.706322902634824,1.706322902634824,False

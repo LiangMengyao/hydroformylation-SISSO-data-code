@@ -1,0 +1,25 @@
+﻿task_id,pipeline,target,heldout_ligand,selected_fcomplexity,selected_dimension,outer_screened_feature_count,dimension,expressions_model_features,expressions_source_descriptors,coefficients,intercept,reported_RMSE,reported_MaxAE
+49,P3,log,LPP1,1,1,32,1,(feature25/feature23),(Q(Pe)/Q(Rh)),-3.388754941,-2.515827619,0.8029235064,1.968851399
+50,P3,log,LPP2,1,2,32,2,(feature32/feature6) ; (feature25/feature24),(Vbur/DCβ-Pa) ; (Q(Pe)/Q(Pa)),63.32538957 ; 3.83763501,-16.4499466,0.5934673188,1.389268276
+51,P3,log,LPP3,1,1,31,1,(feature23/feature21),(Q(Pe)/Q(Rh)),-3.631390983,-2.847874385,0.8244372865,2.05257534
+52,P3,log,LPP4,2,2,32,2,((feature32/feature20)/feature6) ; ((feature23/feature19)/feature22),((Vbur/NPA(Cα))/DCβ-Pa) ; ((Q(Pe)/NPA(Pe))/Q(Pa)),-31.675443 ; 5.127026236,-18.22657797,0.4884031533,0.8662210106
+53,P3,log,LPP5,1,3,33,3,(feature25/feature14) ; (feature25/feature33) ; (feature23-feature27),(Q(Pe)/θPe-Rh-CO) ; (Q(Pe)/Vbur) ; (NPA(Cβ)-Q(H)),4281.543911 ; -22.79650832 ; 22.43346745,2.535992652,0.4792472945,1.139886987
+54,P3,log,LPP6,1,2,31,2,(feature31/feature5) ; (feature23/feature22),(Vbur/DCβ-Pa) ; (Q(Pe)/Q(Pa)),69.90518224 ; 3.908495437,-17.93528418,0.5707269193,1.325928811
+55,P3,log,LPP7,1,1,31,1,(feature1+feature5),(DH-Pe+DCβ-Pa),-5.186108363,32.23624209,0.8486297764,1.638896066
+56,P3,log,LPP8,1,3,30,3,(feature11/feature30) ; (feature23/feature22) ; (feature24/feature27),(θH-Rh-Pa/Vbur) ; (Q(Cα)/Q(Pe)) ; (Q(H)/Gcorr),-0.1119525288 ; 2.345631182 ; -19.65152697,30.54254138,0.3955690696,0.8330911621
+57,P3,log,LPP9,1,1,33,1,(feature26/feature30),(Q(Cα)/Gcorr),4.282522384,4.065624848,0.8444475367,2.094977446
+58,P3,log,LPP10,1,2,31,2,(feature31/feature13) ; (feature30/feature23),(Vbur/θCβ-Rh-Pa) ; (C数/Q(Pe)),2599.542187 ; -0.1464671401,-17.02984346,0.6054386852,1.306829326
+59,P3,log,LPP11,1,1,34,1,(feature34/feature5),(Vbur/DP(a)-Rh),49.97454757,-14.14340608,0.8424005948,1.826214009
+60,P3,log,LPP12,1,2,34,2,(feature34/feature5) ; (feature25/feature24),(Vbur/DCβ-Pa) ; (Q(Pe)/Q(Pa)),66.56484424 ; 3.72058942,-17.11840485,0.5761840071,1.444396662
+61,P3,log,LPP13,2,1,33,1,((feature33/feature13)/feature21),((Vbur/θCβ-Rh-Pa)/NPA(Cα)),-593.2853818999999,-9.181212158,0.7852828261,1.793841832
+62,P3,log,LPP14,1,4,32,4,(feature2+feature5) ; (feature9/feature32) ; (feature13/feature24) ; (feature26/feature31),(DH-Pe+DCβ-Pa) ; (θH-Rh-Pa/Vbur) ; (vH/Q(Pe)) ; (Q(H)/C数),-3.090170795 ; -0.1087811641 ; -0.0005884717788 ; -197.5844813,48.97857481,0.3693999509,0.6280630163
+63,P3,log,LPP15,1,2,34,2,(feature34/feature6) ; (feature22/feature26),(Vbur/DCβ-Pa) ; (NPA(Pe)/Q(Pe)),70.25197794 ; -0.6943805433,-11.72916662,0.583725969,1.3563053
+64,P3,log,LPP16,1,1,30,1,(feature30/feature4),(Vbur/DCβ-Pa),68.58904417332427,-13.68738682997022,0.800789661826753,1.702712742012765
+65,P3,log,LPP17,1,2,32,2,(feature22/feature24) ; (feature32/feature5),(Q(Rh)/Q(Pe)) ; (Vbur/DCβ-Pa),3.745831396 ; 51.51068178,-6.4558428,0.627557375,1.066785868
+66,P3,log,LPP18,2,3,34,3,(feature27/(feature32/feature4)) ; ((feature2-feature4))^2 ; (exp(-feature29)/feature11),(Q(Cα)/(Gcorr/DCβ-Pa)) ; ((DCα-Pa-DCβ-Pa))^2 ; (exp(-Q(H))/θH-Rh-Pa),2.31367246 ; -32.65282053 ; 4224.056383,-17.15510693,0.4077844902,0.8307952448
+67,P3,log,LPP19,2,4,33,4,((feature33/feature14)/feature22) ; ((feature16/feature25)/feature30) ; ((feature24)^2/feature32) ; (feature17/(feature32/feature24)),((Vbur/θCβ-Rh-Pa)/NPA(Cα)) ; ((θPα-Rh-CO/Q(Pe))/Gcorr) ; ((Q(Pa))^2/C数) ; (vH/(C数/Q(Pa))),-1358.250003 ; -0.00603569472 ; -143.5468969 ; 0.03700002076,-21.21335363,0.3085019444,0.6123586261
+68,P3,log,LPP20,2,1,31,1,((feature23/feature19)+feature31),((Q(Pe)/NPA(Pe))+Vbur),11.94178854,-11.13013881,0.7714115451,1.710201191
+69,P3,log,LPP21,1,3,30,3,(feature30/feature11) ; (feature21/feature20) ; (feature29/feature21),(Vbur/θCβ-Rh-Pa) ; (Q(Pe)/Q(Pa)) ; (C数/Q(Pe)),2377.079353 ; 2.478814731 ; -0.1110374313,-18.23917658,0.4601622899,0.9371645829
+70,P3,log,LPP22,1,2,33,2,(feature33/feature13) ; (feature32/feature25),(Vbur/θCβ-Rh-Pa) ; (C数/Q(Pe)),2791.253529 ; -0.1573936859,-18.37138399,0.6120231617,1.379917076
+71,P3,log,LPP23,1,1,31,1,(feature2+feature5),(DH-Pe+DCβ-Pa),-5.744225976,35.59398482,0.8394494778,1.610140717
+72,P3,log,LPP24,1,4,32,4,(feature13/feature24) ; (feature26/feature29) ; (feature32/feature10) ; (feature2/feature1),(θPe-Rh-CO/Q(Pe)) ; (Q(H)/Gcorr) ; (Vbur/θH-Rh-Pa) ; (DH-Pe/DH-Cβ),-0.01081021291 ; -25.71825198 ; 5581.150852 ; -14.12208924,-4.288212724,0.355901932,0.6791271596

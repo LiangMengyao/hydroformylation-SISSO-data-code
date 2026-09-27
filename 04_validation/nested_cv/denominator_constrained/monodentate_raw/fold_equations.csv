@@ -1,0 +1,25 @@
+﻿task_id,pipeline,target,heldout_ligand,selected_fcomplexity,selected_dimension,outer_screened_feature_count,dimension,expressions_model_features,expressions_source_descriptors,coefficients,intercept,reported_RMSE,reported_MaxAE
+25,P2,raw,LP1,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1488.815742,-51.02713834,0.1701301133,0.3809250335
+26,P2,raw,LP2,2,1,28,1,((feature4/feature12))^2,((DCα-Pe/θCα-Rh-Pe))^2,21044.25884,-24.69862925,0.1694140001,0.3833954558
+27,P2,raw,LP3,1,3,28,3,(feature21/feature12) ; (feature24/feature14) ; (feature20+feature24),(NPA(Pa)/θCα-Rh-Pe) ; (Q(Pa)/θPe-Rh-CO) ; (NPA(Rh)+Q(Pa)),1314.675626 ; -2252.322995 ; 15.23603327,7.124996932,0.09279990658,0.1903353067
+28,P2,raw,LP4,1,1,30,1,(feature5/feature13),(DCα-Pe/θCα-Rh-Pe),1676.414373,-57.66589864,0.1674120848,0.4422410491
+29,P2,raw,LP5,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1486.921907,-50.96077701,0.1701900161,0.3820239358
+30,P2,raw,LP6,1,3,29,3,(feature13-feature15) ; (feature22/feature23) ; (feature10+feature11),(θCα-Rh-Pa-θCβ-Rh-Pe) ; (NPA(Rh)/NPA(Pa)) ; (θH-Rh-Cγ+θH-Rh-Pe),0.2225739947 ; 23.01417282 ; -0.1447401814,56.29011757,0.08173564855,0.1880589043
+31,P2,raw,LP7,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1478.307886,-50.65938671,0.1697782028,0.3874732476
+32,P2,raw,LP8,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1479.815448,-50.71187645,0.1700061861,0.3862621913
+33,P2,raw,LP9,1,1,28,1,(feature4/feature11),(DCα-Pe/θCα-Rh-Pe),1492.826173,-51.17435916,0.1688004524,0.3852905047
+34,P2,raw,LP10,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1499.4441,-51.39981635,0.169140221,0.375010811
+35,P2,raw,LP11,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1487.263784,-50.97649133,0.1695121699,0.3855602537
+36,P2,raw,LP12,1,1,29,1,(feature4/feature13),(DCα-Pe/θCα-Rh-Pe),1478.428311,-50.66355968,0.1698063388,0.387356565
+37,P2,raw,LP13,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1476.249956,-50.58842732,0.1689464933,0.3898192941
+38,P2,raw,LP14,1,2,27,2,(feature22/feature14) ; (feature20/feature24),(NPA(Pa)/θCα-Rh-Pe) ; (峰高_vco/Q(Pa)),550.6512589 ; 0.0004500197417,-7.251459514,0.09751615092,0.184706201
+39,P2,raw,LP15,1,1,29,1,(feature4/feature13),(DCα-Pe/θCα-Rh-Pe),1485.112182,-50.8975359,0.170204311,0.383246933
+40,P2,raw,LP16,1,2,30,2,(feature12+feature17) ; (feature8/feature12),(θH-Rh-Pe+θPα-Rh-CO) ; (DP-P/θH-Rh-Pe),-0.7915762579 ; -282.1262392,155.8985741,0.1208011615,0.2920447145
+41,P2,raw,LP17,2,2,28,2,(feature13/(feature21/feature20)) ; (feature24/(feature14-feature8)),(θCβ-Rh-Pe/(NPA(Pa)/NPA(Rh))) ; (Q(Pa)/(θPe-Rh-CO-θH-Rh-Cβ)),0.1928760882 ; -134.9766766,31.48786716,0.08580530014,0.1821795023
+42,P2,raw,LP18,1,1,27,1,(feature4/feature11),(DCα-Pe/θCα-Rh-Pe),1491.189772,-51.10933046,0.169678491,0.3785519354
+43,P2,raw,LP19,2,1,29,1,((feature5/feature13))^2,((DCα-Pe/θCα-Rh-Pe))^2,21090.37739,-24.75240962,0.1695119339,0.3786581938
+44,P2,raw,LP20,2,3,26,3,((feature20/feature13)/feature19) ; (feature23/(feature14-feature17)) ; ((feature11+feature17)-feature14),((NPA(Pa)/θCβ-Rh-Pe)/NPA(Rh)) ; (Q(Pa)/(θPe-Rh-CO-锥角(°))) ; ((θCα-Rh-Pa+锥角(°))-θPe-Rh-CO),-3585.12376 ; -48.25682108 ; 0.08160288759000001,-28.40423477,0.07942487656,0.1946438908
+45,P2,raw,LP21,1,1,28,1,(feature4/feature12),(DCα-Pe/θCα-Rh-Pe),1701.090433,-58.54782459,0.1466511199,0.3418044774
+46,P2,raw,LP22,1,2,29,2,(feature6/feature12) ; (feature14/feature21),(DP-P/θCα-Rh-Pe) ; (θPe-Rh-CO/NPA(Rh)),340.7042888 ; -0.1421554819,-23.04888326,0.1137406432,0.2337841357
+47,P2,raw,LP23,1,3,28,3,(feature21/feature13) ; (feature24/feature15) ; (feature20+feature24),(NPA(Pa)/θCα-Rh-Pe) ; (Q(Pa)/θPe-Rh-CO) ; (NPA(Rh)+Q(Pa)),1312.827993 ; -2247.267204 ; 14.94727678,6.838020948,0.09385610061,0.2003828228
+48,P2,raw,LP24,1,4,28,4,(feature20/feature11) ; (feature25/feature22) ; (feature6/feature25) ; (feature19/feature25),(NPA(Pa)/θCα-Rh-Pe) ; (Q(Cβ)/NPA(H)) ; (DH-Rh/Q(Cβ)) ; (NPA(Rh)/Q(Cβ)),1651.465487 ; 7.670058706 ; -1.157501695 ; -1.445522115,-14.37472291,0.0632222601,0.1585445063

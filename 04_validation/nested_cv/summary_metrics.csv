@@ -1,0 +1,5 @@
+﻿workflow,ligand_class,response_fitted,evaluation_scale,n_outer_folds,R2,RMSE,MAE,MaxAE,negative_prediction_count,source_metrics
+monodentate_raw,mono,raw,L_B,24,0.5831539366992529,0.19295074058639144,0.11808319968609311,0.6919810822053112,0,results/monodentate_raw/nested_loocv_metrics.csv
+monodentate_log,mono,log,L_B,24,0.4564696370356619,0.22032841111696178,0.14974755689279454,0.7457712731951245,0,results/monodentate_log/nested_loocv_metrics.csv
+bidentate_raw,bi,raw,L_B,24,0.047570640778232365,7.272157521150621,5.825776367273755,15.460409410240917,4,results/bidentate_raw/nested_loocv_metrics.csv
+bidentate_log,bi,log,L_B,24,0.5063781934375524,5.235329964091764,3.284241034019758,13.570371903617453,0,results/bidentate_log/nested_loocv_metrics.csv
