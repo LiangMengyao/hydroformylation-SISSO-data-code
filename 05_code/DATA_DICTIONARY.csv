@@ -1,0 +1,14 @@
+field,description,unit_or_convention
+ligand_id,Stable identifier used in Tables S1 and S2,LP1-LP24 or LPP1-LPP24
+experimental_LB_full_precision,Experimental linear-to-branched aldehyde ratio,dimensionless
+L/B,Linear-to-branched aldehyde ratio,dimensionless
+ln(L/B),Natural logarithm of L/B,dimensionless
+3ea*,Optimized Rh-hydride-carbonyl intermediate used for descriptor extraction,structure label
+3ee*,Alternative optimized coordination isomer evaluated in the DFT workflow,structure label
+Pa,Axial phosphorus donor site,atom-label convention
+Pe,Equatorial phosphorus donor site,atom-label convention
+Vbur,Buried-volume fraction used as a primary descriptor,dimensionless fraction
+Gcorr,Thermochemical correction descriptor,energy convention defined in SI
+ESP,Electrostatic-potential descriptor,convention defined in SI
+NPA,Natural population analysis descriptor,charge convention defined in SI
+Q,Partial-charge descriptor,charge convention defined in SI
