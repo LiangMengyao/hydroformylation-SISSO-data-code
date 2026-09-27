@@ -1,0 +1,185 @@
+****************************************************************
+  Sure Independence Screening and Sparsifying Operator (SISSO)  
+             Version SISSO.3.5, August, 2024.                
+****************************************************************
+
+Read in data from train.dat
+Standard Deviation (sqrt[sum(y-y_mean)^2/n]) of the target property:   1.06527
+Read in data from SISSO.in
+Property type:     1
+Number of tasks:        1
+Descriptor dimension:        4
+Number of samples for the task(s):     24
+Restarts :  0
+Scheme for feature storing in memory:        1
+Number of scalar features:       59
+Tier of the feature space (max depth of expression tree):        2
+Maximal feature complexity (number of operators in a feature):        2
+Unit of input primary feature, each represented by a row vector: 
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+The feature will be discarded if the minimum of the maximal abs. value in it <    0.10000E-02
+The faature will be discarded if the maximum of the maximal abs. value in it >     0.10000E+07
+Safe-denominator filtering enabled:      F
+Safe-denominator relative clearance (minabs/medianabs):    0.00000
+Size of the SIS-selected (single) subspace :    100   100   100   100
+Operators for feature construction: ()(+)(-)(/)(^-1)(^2)(sqrt)(|-|) ()(+)(-)(/)(^-1)(^2)(sqrt)(|-|) 
+Method for sparse regression:  L0        
+Fitting intercept:      T
+Metric for model selection: RMSE
+Number of the top-ranked models to output:      100
+--------------------------------------------------------------------------------
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space Phi00:             59
+Total number of features in the space Phi01:           8916
+Total number of features in the space Phi02:        2010233
+Size of the SIS-selected subspace from Phi02:        100
+Time (second) used for this FC:            0.33
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features for this DI:        100
+ 
+  1D descriptor/model(y=sum(ci*di)+c0) : 
+================================================================================
+     d001 = ((feature22-feature49)/feature59)    feature_ID:000001
+ 
+        coeff.(ci):    -0.2619831257E+01
+                c0:     0.1169473717E+02
+    RMSE and MaxAE:     0.7145369082E+00    0.1270247744E+01
+================================================================================
+Time (second) used for this DI:            0.47
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space Phi00:             59
+Total number of features in the space Phi01:           8916
+Total number of features in the space Phi02:        2010233
+Size of the SIS-selected subspace from Phi02:        100
+Time (second) used for this FC:            0.33
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features for this DI:        200
+ 
+  2D descriptor/model(y=sum(ci*di)+c0) : 
+================================================================================
+     d001 = ((feature22-feature50)-feature57)    feature_ID:000006
+     d002 = (feature25/abs(feature8-feature10))    feature_ID:000200
+ 
+        coeff.(ci):    -0.5730744204E+01    0.1054725296E-01
+                c0:     0.1870423668E+02
+    RMSE and MaxAE:     0.4578553768E+00    0.1490423921E+01
+================================================================================
+Time (second) used for this DI:            0.10
+
+Dimension:   3
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space Phi00:             59
+Total number of features in the space Phi01:           8916
+Total number of features in the space Phi02:        2010233
+Size of the SIS-selected subspace from Phi02:        100
+Time (second) used for this FC:            0.47
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features for this DI:        300
+ 
+  3D descriptor/model(y=sum(ci*di)+c0) : 
+================================================================================
+     d001 = (feature59/(feature22-feature49))    feature_ID:000004
+     d002 = (feature49/abs(feature8-feature10))    feature_ID:000160
+     d003 = (feature37/(feature39+feature45))    feature_ID:000162
+ 
+        coeff.(ci):     0.3720782476E+02    0.1973293520E+01   -0.1061120065E-01
+                c0:    -0.8832003151E+01
+    RMSE and MaxAE:     0.2824465913E+00    0.5530982336E+00
+================================================================================
+Time (second) used for this DI:            0.54
+
+Dimension:   4
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space Phi00:             59
+Total number of features in the space Phi01:           8916
+Total number of features in the space Phi02:        2010233
+Size of the SIS-selected subspace from Phi02:        100
+Time (second) used for this FC:            0.33
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features for this DI:        400
+ 
+  4D descriptor/model(y=sum(ci*di)+c0) : 
+================================================================================
+     d001 = (feature59/(feature22-feature49))    feature_ID:000004
+     d002 = (feature37/(feature39+feature45))    feature_ID:000162
+     d003 = (feature5/abs(feature8-feature10))    feature_ID:000179
+     d004 = (feature23/(feature44+feature54))    feature_ID:000301
+ 
+        coeff.(ci):     0.3861166827E+02   -0.1115524852E-01    0.1305641815E-01   -0.2236142987E+01
+                c0:    -0.2378218792E+02
+    RMSE and MaxAE:     0.2100740394E+00    0.4646566237E+00
+================================================================================
+Time (second) used for this DI:          163.06
+Total time (second):          165.95
+Have a nice day !    
+
