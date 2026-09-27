@@ -1,0 +1,15 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Except where otherwise noted, the original data, optimized geometries, model
+records, and computational results in this repository are made available under
+the Creative Commons Attribution 4.0 International License.
+
+The full license terms are available at:
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution should cite the associated manuscript and this repository. The
+experimental values reused from previous publications remain subject to their
+original source attribution. Where applicable, users must also cite the
+original references identified in the manuscript, including Refs. [3] and
+[13]. This repository does not grant rights to third-party material beyond the
+rights held by the authors.
