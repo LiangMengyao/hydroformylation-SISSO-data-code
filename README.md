@@ -68,3 +68,8 @@ also be attributed to their original sources, including Refs. [3] and [13].
 
 The release should be versioned and cited by its GitHub/Zenodo DOI in the
 manuscript Data Availability statement.
+
+## Version history
+
+- v1.0.1: Corrected the conversion reported for LPP13 (DPEphos) in `01_data/experimental_training_data.csv` from 4.04% to 4.44%. The TOF and experimental L/B ratio remain unchanged. This correction does not affect any descriptor data, SISSO model, validation result, figure, or conclusion.
+- v1.0.0: Initial audited release.
